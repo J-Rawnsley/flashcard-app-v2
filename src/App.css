@@ -1,0 +1,13 @@
+.width-limited {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.rounded {
+  border-radius: 10px;
+  overflow: hidden; 
+}
+
+.space-above {
+  margin-top: 20px;
+}
