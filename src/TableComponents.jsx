@@ -34,7 +34,7 @@ const TableRow = (props) => {
   
     return (
       <div className="width-limited space-above">
-      <h3>Flashcards</h3>
+      <h3>Here are your flashcards!</h3>
       <table className="table table-primary rounded table-hover">
     <TableHead />
     <TableBody data={props.data}/> 
