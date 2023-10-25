@@ -1,3 +1,5 @@
+// used during development for testing
+
 const intialData = [
     {
       word: "word1",

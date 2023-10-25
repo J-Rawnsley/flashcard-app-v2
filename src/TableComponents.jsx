@@ -1,3 +1,5 @@
+
+// takes as a parameter a "word" object, containing "word", "part of speech" and "hint" properties. Renders a single line of the output table
 const TableRow = (props) => {
     return (
       <tr className='rounded'>
@@ -9,6 +11,7 @@ const TableRow = (props) => {
     )
   }
   
+  // renders the column headings
   const TableHead = () => {
     return (
       <thead>
@@ -22,6 +25,7 @@ const TableRow = (props) => {
     )
   }
   
+  //takes in the data which has been processed by "makeDataArray" function (an array of "word" objects). Calls the TableRow component function to render a table for for each object in the array 
   const TableBody = (props) => {
     const bodyLines = props.data.map((item, index) => 
       <TableRow index={index + 1} word={item} />
@@ -30,8 +34,8 @@ const TableRow = (props) => {
     return <tbody>{bodyLines}</tbody>
   }
   
+  // conbines the component functions defined above to render a table of all words and hints requested by the user
   const Table = (props) => {
-  
     return (
       <div className="width-limited space-above">
       <h3>Here are your flashcards!</h3>
