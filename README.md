@@ -12,9 +12,10 @@ I created this app to fill a genuine need that I have in my job as an English (a
 
 I have been somewhat successful in achieving my aims for the flashcard app, with the main limitation being that the quality of data coming from the API is not always as good as I would have liked. The app searches the fetched data for any example sentences for the requested word or words. But a lot of words don't have example sentences, and for those that do have examples, the examples are not always relevant to the most common usage of the word, which could be confusing for some learners. With that said, it is still a tool that could be useful for an English learner who can use it intelligently, and as far as I know is the only web app of this kind available.
 
-## live Link
+## Live Link
 
 See the flashcard app in action: https://flashcard-app-v2.netlify.app/
+
 View other projects in my collection: https://joes-mini-collection.netlify.app/
 
 ## Technologies Used

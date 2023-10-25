@@ -4,7 +4,7 @@ const InputForm = (props) => {
     return (
       <>
         <h1 className="width-limited space-above">English Learning Flashcard App</h1>
-        <p className="width-limited space-above">Created by Joseph Rawnsley. Code on <a href="#">GitHub</a></p>
+        <p className="width-limited space-above">Created by Joseph Rawnsley. Code on <a href="https://github.com/J-Rawnsley/flashcard-app-v2">GitHub</a></p>
         <form className="width-limited space-above">
           <div className="mb-3">
             <label htmlFor="inputBox" className="form-label">Input your words here (up to 500 characters with words separated by lines, spaces or commas)</label>
